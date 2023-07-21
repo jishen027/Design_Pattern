@@ -3,14 +3,12 @@ package StrategyPattern.Duck;
 import StrategyPattern.FlyBehavior.FlyBehavior;
 import StrategyPattern.QuackBehavior.QuackBehavior;
 
-public class Duck {
+public abstract class Duck {
   FlyBehavior flyBehavior;
   QuackBehavior quackBehavior;
 
   public Duck() {
   }
-
-  
 
   // methods
   public void swim() {

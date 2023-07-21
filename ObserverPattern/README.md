@@ -21,6 +21,3 @@ publisher + subscriber = observer pattern
 ### Java built-in observer pattern
 - java.util.Observable: Subject
 - java.util.Observer: Observer
-
-
-
