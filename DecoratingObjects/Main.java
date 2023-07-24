@@ -22,13 +22,11 @@ public class Main {
     
     System.out.println();
     
-    
     Beverage beverage3 = new HouseBlend();
     beverage3 = new Soy(beverage3);
     beverage3 = new Whip(beverage3);
     beverage3 = new Milk(beverage3);
     System.out.println(beverage3.getDescription()+ " $" + beverage3.cost());
-    
     
   }
 }
